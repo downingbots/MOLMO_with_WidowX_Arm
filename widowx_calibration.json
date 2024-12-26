@@ -1,0 +1,2381 @@
+{
+    "metadata": {
+        "calibration_directory": "/home/ros/downing_bots_gpt4o/calibration_images",
+        "calibration_file": "widowx_calibration.json",
+        "tabletop_segmentation_method": "COLOR",
+        "num_color_clusters": 5,
+        "closed gripper position": null,
+        "open gripper position": null,
+        "pixel_to_gripper_Z": null,
+        "best_vpl": [
+            [
+                92,
+                253
+            ],
+            [
+                -10,
+                114
+            ],
+            [
+                171,
+                9
+            ],
+            [
+                317,
+                108
+            ]
+        ],
+        "swivel_calib_info": [
+            12.0,
+            12.0,
+            24.0,
+            24.0
+        ]
+    },
+    "image_file_name_components": [
+        [
+            "image",
+            "idx#"
+        ],
+        [
+            "empty",
+            "object",
+            "arm",
+            "gripper_opening"
+        ],
+        [
+            "rest",
+            "pick",
+            "rlpick",
+            "mfpick",
+            "flbolt",
+            "fledge",
+            "mledge",
+            "mreach",
+            "mfreach",
+            "mrreach",
+            "swiv"
+        ],
+        [
+            "go",
+            "gc",
+            "dgo",
+            "dgc"
+        ]
+    ],
+    "calibration_info": [
+        {
+            "image_name": "image_empty.jpg",
+            "gripper_position": {
+                "X": 13.949535046228018,
+                "Y": 0.05350912303423138,
+                "Z": 17.233525412576984,
+                "Gamma": -0.02838557464784497,
+                "Rot": -0.00767740469208,
+                "Gripper": 1
+            },
+            "image_desc": "empty workspace with gripper out of view of camera",
+            "gripper_pixel": null,
+            "new_image": "/tmp/images/test_image_t2488912637208.png",
+            "calibrated": true
+        },
+        {
+            "image_name": "idx1_swivA_go.jpg",
+            "gripper_position": {
+                "X": 11.959218960694256,
+                "Y": 0.009174847814547547,
+                "Z": 12.168835088278998,
+                "Gamma": -1.4077710669944752,
+                "Rot": -1.56874969208168,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 12.0,
+            "new_image": "/tmp/images/test_image_t2515547969295.png"
+        },
+        {
+            "image_name": "idx2_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 11.959218960694256,
+                "Y": 0.009174847814547547,
+                "Z": 12.168835088278998,
+                "Gamma": -1.4077710669944752,
+                "Rot": -1.56874969208168,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 12.0,
+            "new_image": "/tmp/images/test_image_t2515548349469.png"
+        },
+        {
+            "image_name": "idx3_swivA_go.jpg",
+            "gripper_position": {
+                "X": 11.982486777962242,
+                "Y": 0.0091926983684267,
+                "Z": 12.190512954060607,
+                "Gamma": -1.4077710669944752,
+                "Rot": -1.5738679618764,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 12.0,
+            "new_image": "/tmp/images/test_image_t2515601454577.png"
+        },
+        {
+            "image_name": "idx4_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 11.982486777962242,
+                "Y": 0.0091926983684267,
+                "Z": 12.190512954060607,
+                "Gamma": -1.4077710669944752,
+                "Rot": -1.5738679618764,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 12.0,
+            "new_image": "/tmp/images/test_image_t2515601837571.png"
+        },
+        {
+            "image_name": "idx5_swivA_go.jpg",
+            "gripper_position": {
+                "X": 11.982458568240798,
+                "Y": 0.027578073463406835,
+                "Z": 12.190512954060607,
+                "Gamma": -1.409305422380845,
+                "Rot": -1.56874969208168,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 12.0,
+            "new_image": "/tmp/images/test_image_t2515612725303.png",
+            "gripper_bounding_box": [
+                [
+                    45,
+                    158
+                ],
+                [
+                    82,
+                    192
+                ]
+            ],
+            "gripper_grasping_point": [
+                175,
+                45
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx6_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 11.981969601741342,
+                "Y": 0.027576948088846486,
+                "Z": 12.17212792703854,
+                "Gamma": -1.409305422380845,
+                "Rot": -1.56874969208168,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 12.0,
+            "new_image": "/tmp/images/test_image_t2515613124676.png",
+            "gripper_bounding_box": [
+                [
+                    45,
+                    158
+                ],
+                [
+                    82,
+                    192
+                ]
+            ],
+            "gripper_grasping_point": [
+                175,
+                45
+            ]
+        },
+        {
+            "image_name": "idx7_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 14.351328155262697,
+                "Y": 7.915536683930184,
+                "Z": 12.197016204981026,
+                "Gamma": -1.386290091585295,
+                "Rot": -0.99038520527832,
+                "Gripper": 2
+            },
+            "swivel": false,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2515616208273.png",
+            "gripper_bounding_box": [
+                [
+                    26,
+                    80
+                ],
+                [
+                    60,
+                    112
+                ]
+            ],
+            "gripper_grasping_point": [
+                96,
+                28
+            ],
+            "open_close_gripper_pos": [
+                490,
+                null
+            ]
+        },
+        {
+            "image_name": "idx8_swivB_go.jpg",
+            "gripper_position": {
+                "X": 14.351328155262697,
+                "Y": 7.915536683930184,
+                "Z": 12.197016204981026,
+                "Gamma": -1.387824446971665,
+                "Rot": -0.99038520527832,
+                "Gripper": 1
+            },
+            "swivel": false,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2515616684422.png",
+            "gripper_bounding_box": [
+                [
+                    26,
+                    80
+                ],
+                [
+                    60,
+                    112
+                ]
+            ],
+            "gripper_grasping_point": [
+                96,
+                28
+            ]
+        },
+        {
+            "image_name": "idx9_swivA_go.jpg",
+            "gripper_position": {
+                "X": 13.976122282578151,
+                "Y": 14.263187705284096,
+                "Z": 12.231764420889975,
+                "Gamma": -1.5566035394723652,
+                "Rot": -0.71399863636344,
+                "Gripper": 1
+            },
+            "swivel": false,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515619918609.png"
+        },
+        {
+            "image_name": "idx10_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 13.976122282578151,
+                "Y": 14.263187705284096,
+                "Z": 12.231764420889975,
+                "Gamma": -1.5566035394723652,
+                "Rot": -0.71399863636344,
+                "Gripper": 2
+            },
+            "swivel": false,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515620305479.png"
+        },
+        {
+            "image_name": "idx11_swivA_go.jpg",
+            "gripper_position": {
+                "X": 14.035897706104523,
+                "Y": 14.324190898350192,
+                "Z": 12.213970117209797,
+                "Gamma": -1.553534828699625,
+                "Rot": -0.71399863636344,
+                "Gripper": 1
+            },
+            "swivel": false,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515661344108.png"
+        },
+        {
+            "image_name": "idx12_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 14.050931810462448,
+                "Y": 14.339533798770091,
+                "Z": 12.214027796172864,
+                "Gamma": -1.552000473313255,
+                "Rot": -0.71399863636344,
+                "Gripper": 2
+            },
+            "swivel": false,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515661727041.png"
+        },
+        {
+            "image_name": "idx13_swivA_go.jpg",
+            "gripper_position": {
+                "X": 14.006014780376677,
+                "Y": 14.293694186156237,
+                "Z": 12.222867071091049,
+                "Gamma": -1.5535348286996251,
+                "Rot": -0.71399863636344,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515740662592.png",
+            "gripper_bounding_box": [
+                [
+                    0,
+                    40
+                ],
+                [
+                    25,
+                    75
+                ]
+            ],
+            "gripper_grasping_point": [
+                57,
+                0
+            ],
+            "open_close_gripper_pos": [
+                null,
+                18
+            ]
+        },
+        {
+            "image_name": "idx14_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 14.021048928977216,
+                "Y": 14.309037131727479,
+                "Z": 12.222891790670882,
+                "Gamma": -1.5535348286996251,
+                "Rot": -0.71399863636344,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515741058716.png",
+            "gripper_bounding_box": [
+                [
+                    0,
+                    40
+                ],
+                [
+                    25,
+                    75
+                ]
+            ],
+            "gripper_grasping_point": [
+                57,
+                0
+            ]
+        },
+        {
+            "image_name": "idx15_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 16.976874442834305,
+                "Y": 10.55407717157398,
+                "Z": 12.179292275907946,
+                "Gamma": -1.550466117926885,
+                "Rot": -0.8573101906156,
+                "Gripper": 2
+            },
+            "swivel": 0.5564835017960164,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515742711063.png",
+            "gripper_bounding_box": [
+                [
+                    36,
+                    41
+                ],
+                [
+                    60,
+                    65
+                ]
+            ],
+            "gripper_grasping_point": [
+                53,
+                38
+            ],
+            "open_close_gripper_pos": [
+                492,
+                null
+            ]
+        },
+        {
+            "image_name": "idx16_swivB_go.jpg",
+            "gripper_position": {
+                "X": 16.993048157767394,
+                "Y": 10.528016199602744,
+                "Z": 12.179292275907946,
+                "Gamma": -1.552000473313255,
+                "Rot": -0.8573101906156,
+                "Gripper": 1
+            },
+            "swivel": 0.5564835017960164,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515743197070.png",
+            "gripper_bounding_box": [
+                [
+                    36,
+                    41
+                ],
+                [
+                    60,
+                    65
+                ]
+            ],
+            "gripper_grasping_point": [
+                53,
+                38
+            ]
+        },
+        {
+            "image_name": "idx17_swivA_go.jpg",
+            "gripper_position": {
+                "X": 19.026253071045105,
+                "Y": 6.27088306498312,
+                "Z": 12.179308755626177,
+                "Gamma": -1.545863051767775,
+                "Rot": -0.9852669354836,
+                "Gripper": 1
+            },
+            "swivel": 0.3171240615222964,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515744852690.png",
+            "gripper_bounding_box": [
+                [
+                    81,
+                    63
+                ],
+                [
+                    110,
+                    95
+                ]
+            ],
+            "gripper_grasping_point": [
+                79,
+                82
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx18_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 19.046654426522995,
+                "Y": 6.277607169518642,
+                "Z": 12.179366434589245,
+                "Gamma": -1.545863051767775,
+                "Rot": -0.99038520527832,
+                "Gripper": 2
+            },
+            "swivel": 0.3171240615222964,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515745255421.png",
+            "gripper_bounding_box": [
+                [
+                    81,
+                    63
+                ],
+                [
+                    110,
+                    95
+                ]
+            ],
+            "gripper_grasping_point": [
+                79,
+                82
+            ]
+        },
+        {
+            "image_name": "idx19_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 19.991932517073167,
+                "Y": 1.5830448038423837,
+                "Z": 12.179366434589245,
+                "Gamma": -1.545863051767775,
+                "Rot": -1.1336967595304799,
+                "Gripper": 2
+            },
+            "swivel": 0.07929897663494628,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515746272896.png",
+            "gripper_bounding_box": [
+                [
+                    119,
+                    89
+                ],
+                [
+                    147,
+                    119
+                ]
+            ],
+            "gripper_grasping_point": [
+                104,
+                119
+            ],
+            "open_close_gripper_pos": [
+                491,
+                null
+            ]
+        },
+        {
+            "image_name": "idx20_swivB_go.jpg",
+            "gripper_position": {
+                "X": 19.991932517073167,
+                "Y": 1.5830448038423837,
+                "Z": 12.179366434589245,
+                "Gamma": -1.545863051767775,
+                "Rot": -1.1336967595304799,
+                "Gripper": 1
+            },
+            "swivel": 0.07929897663494628,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515746756867.png",
+            "gripper_bounding_box": [
+                [
+                    119,
+                    89
+                ],
+                [
+                    147,
+                    119
+                ]
+            ],
+            "gripper_grasping_point": [
+                104,
+                119
+            ]
+        },
+        {
+            "image_name": "idx21_swivA_go.jpg",
+            "gripper_position": {
+                "X": 19.82358660368251,
+                "Y": -3.1748341691924624,
+                "Z": 12.201248436409927,
+                "Gamma": -1.547397407154145,
+                "Rot": -1.2821265835773599,
+                "Gripper": 1
+            },
+            "swivel": -0.16006046363877374,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515748070932.png",
+            "gripper_bounding_box": [
+                [
+                    151,
+                    127
+                ],
+                [
+                    180,
+                    152
+                ]
+            ],
+            "gripper_grasping_point": [
+                139,
+                151
+            ],
+            "open_close_gripper_pos": [
+                null,
+                19
+            ]
+        },
+        {
+            "image_name": "idx22_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 19.802161513305936,
+                "Y": -3.171402847183712,
+                "Z": 12.179366434589245,
+                "Gamma": -1.545863051767775,
+                "Rot": -1.2821265835773599,
+                "Gripper": 2
+            },
+            "swivel": -0.16006046363877374,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515748473334.png",
+            "gripper_bounding_box": [
+                [
+                    151,
+                    127
+                ],
+                [
+                    180,
+                    152
+                ]
+            ],
+            "gripper_grasping_point": [
+                139,
+                151
+            ]
+        },
+        {
+            "image_name": "idx23_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 18.50572602469563,
+                "Y": -7.784103168283138,
+                "Z": 12.201248436409927,
+                "Gamma": -1.547397407154145,
+                "Rot": -1.4459112170083999,
+                "Gripper": 2
+            },
+            "swivel": -0.39788554852612373,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515749596681.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                193,
+                191
+            ],
+            "open_close_gripper_pos": [
+                491,
+                null
+            ]
+        },
+        {
+            "image_name": "idx24_swivB_go.jpg",
+            "gripper_position": {
+                "X": 18.50572602469563,
+                "Y": -7.784103168283138,
+                "Z": 12.201248436409927,
+                "Gamma": -1.548931762540515,
+                "Rot": -1.4459112170083999,
+                "Gripper": 1
+            },
+            "swivel": -0.39788554852612373,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2515750080072.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                193,
+                191
+            ]
+        },
+        {
+            "image_name": "idx25_swivA_go.jpg",
+            "gripper_position": {
+                "X": 14.645726606030754,
+                "Y": 18.984700314375225,
+                "Z": 12.180565093514039,
+                "Gamma": -1.930986253746645,
+                "Rot": -0.59116016129016,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515753737996.png",
+            "gripper_bounding_box": [
+                [
+                    0,
+                    15
+                ],
+                [
+                    11,
+                    47
+                ]
+            ],
+            "gripper_grasping_point": [
+                31,
+                0
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx26_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 14.645726606030754,
+                "Y": 18.984700314375225,
+                "Z": 12.180565093514039,
+                "Gamma": -1.932520609133015,
+                "Rot": -0.59116016129016,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515754140755.png",
+            "gripper_bounding_box": [
+                [
+                    0,
+                    15
+                ],
+                [
+                    11,
+                    47
+                ]
+            ],
+            "gripper_grasping_point": [
+                31,
+                0
+            ]
+        },
+        {
+            "image_name": "idx27_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 17.975568853339723,
+                "Y": 13.702978382542664,
+                "Z": 12.221286166327943,
+                "Gamma": -1.8696120382918453,
+                "Rot": -0.7498265249264799,
+                "Gripper": 2
+            },
+            "swivel": 0.652536553259829,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515758134824.png",
+            "gripper_bounding_box": [
+                [
+                    29,
+                    24
+                ],
+                [
+                    60,
+                    58
+                ]
+            ],
+            "gripper_grasping_point": [
+                41,
+                32
+            ],
+            "open_close_gripper_pos": [
+                488,
+                null
+            ]
+        },
+        {
+            "image_name": "idx28_swivB_go.jpg",
+            "gripper_position": {
+                "X": 17.975568853339723,
+                "Y": 13.702978382542664,
+                "Z": 12.221286166327943,
+                "Gamma": -1.8696120382918453,
+                "Rot": -0.7498265249264799,
+                "Gripper": 1
+            },
+            "swivel": 0.652536553259829,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515758611129.png",
+            "gripper_bounding_box": [
+                [
+                    29,
+                    24
+                ],
+                [
+                    60,
+                    58
+                ]
+            ],
+            "gripper_grasping_point": [
+                41,
+                32
+            ]
+        },
+        {
+            "image_name": "idx29_swivA_go.jpg",
+            "gripper_position": {
+                "X": 21.25426883711614,
+                "Y": 8.74893408028124,
+                "Z": 12.116953729627529,
+                "Gamma": -1.756069739700465,
+                "Rot": -0.87266499999976,
+                "Gripper": 1
+            },
+            "swivel": 0.38862742680418905,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515760682627.png",
+            "gripper_bounding_box": [
+                [
+                    88,
+                    46
+                ],
+                [
+                    113,
+                    70
+                ]
+            ],
+            "gripper_grasping_point": [
+                58,
+                88
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx30_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 21.25426883711614,
+                "Y": 8.74893408028124,
+                "Z": 12.116953729627529,
+                "Gamma": -1.756069739700465,
+                "Rot": -0.87266499999976,
+                "Gripper": 2
+            },
+            "swivel": 0.38862742680418905,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515761079807.png",
+            "gripper_bounding_box": [
+                [
+                    88,
+                    46
+                ],
+                [
+                    113,
+                    70
+                ]
+            ],
+            "gripper_grasping_point": [
+                58,
+                88
+            ]
+        },
+        {
+            "image_name": "idx31_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 22.504391807062234,
+                "Y": 2.8640167626891473,
+                "Z": 12.095149281430874,
+                "Gamma": -1.774482004336905,
+                "Rot": -1.00062174486776,
+                "Gripper": 2
+            },
+            "swivel": 0.12625265573491895,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515767045554.png",
+            "gripper_bounding_box": [
+                [
+                    132,
+                    65
+                ],
+                [
+                    158,
+                    95
+                ]
+            ],
+            "gripper_grasping_point": [
+                80,
+                133
+            ],
+            "open_close_gripper_pos": [
+                492,
+                null
+            ]
+        },
+        {
+            "image_name": "idx32_swivB_go.jpg",
+            "gripper_position": {
+                "X": 22.504391807062234,
+                "Y": 2.8640167626891473,
+                "Z": 12.095149281430874,
+                "Gamma": -1.776016359723275,
+                "Rot": -1.00062174486776,
+                "Gripper": 1
+            },
+            "swivel": 0.12625265573491895,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515767528370.png",
+            "gripper_bounding_box": [
+                [
+                    132,
+                    65
+                ],
+                [
+                    158,
+                    95
+                ]
+            ],
+            "gripper_grasping_point": [
+                80,
+                133
+            ]
+        },
+        {
+            "image_name": "idx33_swivA_go.jpg",
+            "gripper_position": {
+                "X": 22.49625386753357,
+                "Y": -3.073691720085407,
+                "Z": 12.11663238038552,
+                "Gamma": -1.776016359723275,
+                "Rot": -1.12857848973576,
+                "Gripper": 1
+            },
+            "swivel": -0.1361221153343511,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515769855419.png",
+            "gripper_bounding_box": [
+                [
+                    173,
+                    106
+                ],
+                [
+                    201,
+                    132
+                ]
+            ],
+            "gripper_grasping_point": [
+                119,
+                174
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx34_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 22.49564457953249,
+                "Y": -3.0736084722924595,
+                "Z": 12.0817949010209,
+                "Gamma": -1.774482004336905,
+                "Rot": -1.12857848973576,
+                "Gripper": 2
+            },
+            "swivel": -0.1361221153343511,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515770254208.png",
+            "gripper_bounding_box": [
+                [
+                    173,
+                    106
+                ],
+                [
+                    201,
+                    132
+                ]
+            ],
+            "gripper_grasping_point": [
+                119,
+                174
+            ]
+        },
+        {
+            "image_name": "idx35_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 21.075942347795213,
+                "Y": -8.827183691721944,
+                "Z": 12.034316126133632,
+                "Gamma": -1.7468636073822448,
+                "Rot": -1.2514169648090399,
+                "Gripper": 2
+            },
+            "swivel": -0.39849688640362113,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515772109515.png"
+        },
+        {
+            "image_name": "idx36_swivB_go.jpg",
+            "gripper_position": {
+                "X": 21.075942347795213,
+                "Y": -8.827183691721944,
+                "Z": 12.034316126133632,
+                "Gamma": -1.7483979627686148,
+                "Rot": -1.2514169648090399,
+                "Gripper": 1
+            },
+            "swivel": -0.39849688640362113,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515772572632.png"
+        },
+        {
+            "image_name": "idx37_swivA_go.jpg",
+            "gripper_position": {
+                "X": 14.691211009393873,
+                "Y": 19.043660022558733,
+                "Z": 12.281801518341428,
+                "Gamma": -1.937123675292125,
+                "Rot": -0.59116016129016,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515944781425.png",
+            "gripper_bounding_box": [
+                [
+                    0,
+                    15
+                ],
+                [
+                    11,
+                    46
+                ]
+            ],
+            "gripper_grasping_point": [
+                30,
+                0
+            ],
+            "open_close_gripper_pos": [
+                null,
+                18
+            ]
+        },
+        {
+            "image_name": "idx38_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 14.680537349752386,
+                "Y": 19.029824162105903,
+                "Z": 12.260289852050594,
+                "Gamma": -1.937123675292125,
+                "Rot": -0.59116016129016,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515945190719.png",
+            "gripper_bounding_box": [
+                [
+                    0,
+                    15
+                ],
+                [
+                    11,
+                    46
+                ]
+            ],
+            "gripper_grasping_point": [
+                30,
+                0
+            ]
+        },
+        {
+            "image_name": "idx39_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 19.05539494888778,
+                "Y": 14.526141964453528,
+                "Z": 12.232721234653772,
+                "Gamma": -1.9325206091330154,
+                "Rot": -0.7191169061581599,
+                "Gripper": 2
+            },
+            "swivel": 0.6510021978734589,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515951423467.png"
+        },
+        {
+            "image_name": "idx40_swivB_go.jpg",
+            "gripper_position": {
+                "X": 19.0776607737652,
+                "Y": 14.496887128990702,
+                "Z": 12.232721234653772,
+                "Gamma": -1.9340549645193854,
+                "Rot": -0.7191169061581599,
+                "Gripper": 1
+            },
+            "swivel": 0.6510021978734589,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2515951886083.png"
+        },
+        {
+            "image_name": "idx41_swivA_go.jpg",
+            "gripper_position": {
+                "X": 14.680537349752386,
+                "Y": 19.029824162105903,
+                "Z": 12.260289852050594,
+                "Gamma": -1.9355893199057554,
+                "Rot": -0.58604189149544,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516058768489.png"
+        },
+        {
+            "image_name": "idx42_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 14.6698435418403,
+                "Y": 19.01596218421354,
+                "Z": 12.238805023159678,
+                "Gamma": -1.9355893199057554,
+                "Rot": -0.58604189149544,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516059155037.png"
+        },
+        {
+            "image_name": "idx43_swivA_go.jpg",
+            "gripper_position": {
+                "X": 13.813565090052478,
+                "Y": 17.906000880814968,
+                "Z": 12.261782469040238,
+                "Gamma": -1.8926273690873952,
+                "Rot": -0.59116016129016,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516071905308.png",
+            "gripper_bounding_box": [
+                [
+                    0,
+                    30
+                ],
+                [
+                    8,
+                    53
+                ]
+            ],
+            "gripper_grasping_point": [
+                41,
+                0
+            ],
+            "open_close_gripper_pos": [
+                null,
+                18
+            ]
+        },
+        {
+            "image_name": "idx44_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 13.826669899382129,
+                "Y": 17.922988148465997,
+                "Z": 12.260719960598662,
+                "Gamma": -1.8941617244737652,
+                "Rot": -0.59116016129016,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516072308632.png",
+            "gripper_bounding_box": [
+                [
+                    0,
+                    30
+                ],
+                [
+                    8,
+                    53
+                ]
+            ],
+            "gripper_grasping_point": [
+                41,
+                0
+            ]
+        },
+        {
+            "image_name": "idx45_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 17.98518498223919,
+                "Y": 13.710308865795142,
+                "Z": 12.261782469040238,
+                "Gamma": -1.8926273690873952,
+                "Rot": -0.74470825513176,
+                "Gripper": 2
+            },
+            "swivel": 0.6510021978734589,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516073540918.png",
+            "gripper_bounding_box": [
+                [
+                    29,
+                    23
+                ],
+                [
+                    60,
+                    57
+                ]
+            ],
+            "gripper_grasping_point": [
+                40,
+                32
+            ],
+            "open_close_gripper_pos": [
+                491,
+                null
+            ]
+        },
+        {
+            "image_name": "idx46_swivB_go.jpg",
+            "gripper_position": {
+                "X": 18.002247371160095,
+                "Y": 13.723315716840874,
+                "Z": 12.260719960598662,
+                "Gamma": -1.8926273690873952,
+                "Rot": -0.74470825513176,
+                "Gripper": 1
+            },
+            "swivel": 0.6510021978734589,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516074020360.png",
+            "gripper_bounding_box": [
+                [
+                    29,
+                    23
+                ],
+                [
+                    60,
+                    57
+                ]
+            ],
+            "gripper_grasping_point": [
+                40,
+                32
+            ]
+        },
+        {
+            "image_name": "idx47_swivA_go.jpg",
+            "gripper_position": {
+                "X": 20.9191924757831,
+                "Y": 8.648565825480677,
+                "Z": 12.260719960598662,
+                "Gamma": -1.8926273690873952,
+                "Rot": -0.8829015395891999,
+                "Gripper": 1
+            },
+            "swivel": 0.38862742680418905,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516075248833.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                101,
+                66
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx48_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 20.899365429160856,
+                "Y": 8.640368782595974,
+                "Z": 12.261782469040238,
+                "Gamma": -1.8926273690873952,
+                "Rot": -0.8829015395891999,
+                "Gripper": 2
+            },
+            "swivel": 0.38862742680418905,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516075648137.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                101,
+                66
+            ]
+        },
+        {
+            "image_name": "idx49_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 22.46324444015452,
+                "Y": 2.9639169814765784,
+                "Z": 12.259690372498547,
+                "Gamma": -1.8910930137010251,
+                "Rot": -1.00062174486776,
+                "Gripper": 2
+            },
+            "swivel": 0.1293213665076589,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516078454850.png",
+            "gripper_bounding_box": [
+                [
+                    131,
+                    62
+                ],
+                [
+                    156,
+                    93
+                ]
+            ],
+            "gripper_grasping_point": [
+                77,
+                131
+            ],
+            "open_close_gripper_pos": [
+                491,
+                null
+            ]
+        },
+        {
+            "image_name": "idx50_swivB_go.jpg",
+            "gripper_position": {
+                "X": 22.46324444015452,
+                "Y": 2.9639169814765784,
+                "Z": 12.259690372498547,
+                "Gamma": -1.8910930137010251,
+                "Rot": -1.00062174486776,
+                "Gripper": 1
+            },
+            "swivel": 0.1293213665076589,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516078931069.png",
+            "gripper_bounding_box": [
+                [
+                    131,
+                    62
+                ],
+                [
+                    156,
+                    93
+                ]
+            ],
+            "gripper_grasping_point": [
+                77,
+                131
+            ]
+        },
+        {
+            "image_name": "idx51_swivA_go.jpg",
+            "gripper_position": {
+                "X": 22.46776569835383,
+                "Y": -2.9294469060034585,
+                "Z": 12.259690372498547,
+                "Gamma": -1.8910930137010251,
+                "Rot": -1.12857848973576,
+                "Gripper": 1
+            },
+            "swivel": -0.1315190491752411,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516095691657.png",
+            "gripper_bounding_box": [
+                [
+                    172,
+                    103
+                ],
+                [
+                    199,
+                    130
+                ]
+            ],
+            "gripper_grasping_point": [
+                116,
+                172
+            ],
+            "open_close_gripper_pos": [
+                null,
+                18
+            ]
+        },
+        {
+            "image_name": "idx52_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 22.46776569835383,
+                "Y": -2.9294469060034585,
+                "Z": 12.259690372498547,
+                "Gamma": -1.8910930137010251,
+                "Rot": -1.12857848973576,
+                "Gripper": 2
+            },
+            "swivel": -0.1315190491752411,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516096098589.png",
+            "gripper_bounding_box": [
+                [
+                    172,
+                    103
+                ],
+                [
+                    199,
+                    130
+                ]
+            ],
+            "gripper_grasping_point": [
+                116,
+                172
+            ]
+        },
+        {
+            "image_name": "idx53_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 20.95227890431495,
+                "Y": -8.62462540444609,
+                "Z": 12.259690372498547,
+                "Gamma": -1.8910930137010251,
+                "Rot": -1.25653523460376,
+                "Gripper": 2
+            },
+            "swivel": -0.3923594648581411,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516096793367.png"
+        },
+        {
+            "image_name": "idx54_swivB_go.jpg",
+            "gripper_position": {
+                "X": 20.95227890431495,
+                "Y": -8.62462540444609,
+                "Z": 12.259690372498547,
+                "Gamma": -1.8910930137010251,
+                "Rot": -1.25653523460376,
+                "Gripper": 1
+            },
+            "swivel": -0.3923594648581411,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516097244331.png"
+        },
+        {
+            "image_name": "idx55_swivA_go.jpg",
+            "gripper_position": {
+                "X": 14.767977053096155,
+                "Y": 18.962047312391398,
+                "Z": 12.260289852050594,
+                "Gamma": -1.9355893199057554,
+                "Rot": -0.00255913489736,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516235975796.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                3,
+                46
+            ],
+            "open_close_gripper_pos": [
+                null,
+                19
+            ]
+        },
+        {
+            "image_name": "idx56_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 14.757219551099231,
+                "Y": 18.94823470548556,
+                "Z": 12.238805023159678,
+                "Gamma": -1.9371236752921255,
+                "Rot": -0.00255913489736,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516236378757.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                3,
+                46
+            ]
+        },
+        {
+            "image_name": "idx57_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 19.13631232439805,
+                "Y": 14.541455743536673,
+                "Z": 12.260289852050594,
+                "Gamma": -1.9355893199057554,
+                "Rot": -0.71399863636344,
+                "Gripper": 2
+            },
+            "swivel": 0.6463991317143489,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516238539366.png",
+            "gripper_bounding_box": [
+                [
+                    35,
+                    15
+                ],
+                [
+                    65,
+                    49
+                ]
+            ],
+            "gripper_grasping_point": [
+                32,
+                38
+            ],
+            "open_close_gripper_pos": [
+                490,
+                null
+            ]
+        },
+        {
+            "image_name": "idx58_swivB_go.jpg",
+            "gripper_position": {
+                "X": 19.13631232439805,
+                "Y": 14.541455743536673,
+                "Z": 12.260289852050594,
+                "Gamma": -1.9371236752921255,
+                "Rot": -0.71399863636344,
+                "Gripper": 1
+            },
+            "swivel": 0.6463991317143489,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516239013175.png",
+            "gripper_bounding_box": [
+                [
+                    35,
+                    15
+                ],
+                [
+                    65,
+                    49
+                ]
+            ],
+            "gripper_grasping_point": [
+                32,
+                38
+            ]
+        },
+        {
+            "image_name": "idx59_swivA_go.jpg",
+            "gripper_position": {
+                "X": 22.22512271351787,
+                "Y": 9.148568461088137,
+                "Z": 12.260289852050594,
+                "Gamma": -1.935589319905755,
+                "Rot": -0.84195538123144,
+                "Gripper": 1
+            },
+            "swivel": 0.3870930714178189,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516239715272.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                109,
+                57
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx60_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 22.22512271351787,
+                "Y": 9.148568461088137,
+                "Z": 12.260289852050594,
+                "Gamma": -1.9371236752921255,
+                "Rot": -0.84195538123144,
+                "Gripper": 2
+            },
+            "swivel": 0.3870930714178189,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516240111939.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                109,
+                57
+            ]
+        },
+        {
+            "image_name": "idx61_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 23.81568364341835,
+                "Y": 3.1051944238799294,
+                "Z": 12.275655764593512,
+                "Gamma": -1.9371236752921255,
+                "Rot": -0.95455731671528,
+                "Gripper": 2
+            },
+            "swivel": 0.12778701112128893,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516242087482.png",
+            "gripper_bounding_box": [
+                [
+                    140,
+                    54
+                ],
+                [
+                    165,
+                    84
+                ]
+            ],
+            "gripper_grasping_point": [
+                69,
+                140
+            ],
+            "open_close_gripper_pos": [
+                491,
+                null
+            ]
+        },
+        {
+            "image_name": "idx62_swivB_go.jpg",
+            "gripper_position": {
+                "X": 23.83267481427257,
+                "Y": 3.1074098080688395,
+                "Z": 12.260289852050594,
+                "Gamma": -1.935589319905755,
+                "Rot": -0.95455731671528,
+                "Gripper": 1
+            },
+            "swivel": 0.12778701112128893,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516242561296.png",
+            "gripper_bounding_box": [
+                [
+                    140,
+                    54
+                ],
+                [
+                    165,
+                    84
+                ]
+            ],
+            "gripper_grasping_point": [
+                69,
+                140
+            ]
+        },
+        {
+            "image_name": "idx63_swivA_go.jpg",
+            "gripper_position": {
+                "X": 23.828215482835343,
+                "Y": -3.1440183405391013,
+                "Z": 12.297167430884347,
+                "Gamma": -1.9355893199057554,
+                "Rot": -1.06715925219912,
+                "Gripper": 1
+            },
+            "swivel": -0.13305340456161108,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516243442471.png",
+            "gripper_bounding_box": [
+                [
+                    184,
+                    95
+                ],
+                [
+                    211,
+                    121
+                ]
+            ],
+            "gripper_grasping_point": [
+                108,
+                185
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx64_swivB_gc.jpg",
+            "gripper_position": {
+                "X": 23.828215482835343,
+                "Y": -3.1440183405391013,
+                "Z": 12.297167430884347,
+                "Gamma": -1.9371236752921255,
+                "Rot": -1.06715925219912,
+                "Gripper": 2
+            },
+            "swivel": -0.13305340456161108,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516243844854.png",
+            "gripper_bounding_box": [
+                [
+                    184,
+                    95
+                ],
+                [
+                    211,
+                    121
+                ]
+            ],
+            "gripper_grasping_point": [
+                108,
+                185
+            ]
+        },
+        {
+            "image_name": "idx65_swivA_gc.jpg",
+            "gripper_position": {
+                "X": 22.211059402026834,
+                "Y": -9.1826589154656,
+                "Z": 12.260289852050594,
+                "Gamma": -1.9371236752921255,
+                "Rot": -1.15928810850408,
+                "Gripper": 2
+            },
+            "swivel": -0.3938938202445111,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516245195612.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                238,
+                170
+            ],
+            "open_close_gripper_pos": [
+                491,
+                null
+            ]
+        },
+        {
+            "image_name": "idx66_swivB_go.jpg",
+            "gripper_position": {
+                "X": 22.211373154558014,
+                "Y": -9.182788629335862,
+                "Z": 12.297167430884347,
+                "Gamma": -1.934054964519385,
+                "Rot": -1.1644063782988,
+                "Gripper": 1
+            },
+            "swivel": -0.3938938202445111,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516245669471.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                238,
+                170
+            ]
+        },
+        {
+            "image_name": "idx67_swivA_dgo.jpg",
+            "gripper_position": {
+                "X": 11.987615891916,
+                "Y": 0.04598338306774526,
+                "Z": 2.6008259882867506,
+                "Gamma": 0.12965303014826499,
+                "Rot": -0.00255913489736,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 12.0,
+            "new_image": "/tmp/images/test_image_t2516250372310.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                96,
+                226
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx68_swivB_dgc.jpg",
+            "gripper_position": {
+                "X": 12.009570606033519,
+                "Y": 0.13820822096305752,
+                "Z": 2.5968055544515103,
+                "Gamma": 0.12965303014826496,
+                "Rot": -0.00255913489736,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 12.0,
+            "new_image": "/tmp/images/test_image_t2516250809455.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                96,
+                226
+            ]
+        },
+        {
+            "image_name": "idx69_swivA_dgc.jpg",
+            "gripper_position": {
+                "X": 14.061996625220987,
+                "Y": 7.643773725638812,
+                "Z": 2.6699022909233285,
+                "Gamma": -0.05753832698887502,
+                "Rot": -0.99038520527832,
+                "Gripper": 2
+            },
+            "swivel": true,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516256995350.png",
+            "gripper_bounding_box": [
+                [
+                    61,
+                    148
+                ],
+                [
+                    85,
+                    167
+                ]
+            ],
+            "gripper_grasping_point": [
+                157,
+                61
+            ],
+            "open_close_gripper_pos": [
+                492,
+                null
+            ]
+        },
+        {
+            "image_name": "idx70_swivB_dgo.jpg",
+            "gripper_position": {
+                "X": 14.080869487297033,
+                "Y": 7.654032573731959,
+                "Z": 2.6699599698863956,
+                "Gamma": -0.05907268237524494,
+                "Rot": -0.99038520527832,
+                "Gripper": 1
+            },
+            "swivel": true,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516257484939.png",
+            "gripper_bounding_box": [
+                [
+                    61,
+                    148
+                ],
+                [
+                    85,
+                    167
+                ]
+            ],
+            "gripper_grasping_point": [
+                157,
+                61
+            ]
+        },
+        {
+            "image_name": "idx71_swivA_dgo.jpg",
+            "gripper_position": {
+                "X": 15.208532384894681,
+                "Y": 4.986739270716117,
+                "Z": 2.6699022909233285,
+                "Gamma": -0.05753832698887502,
+                "Rot": -1.1336967595304799,
+                "Gripper": 1
+            },
+            "swivel": 0.3168262208202336,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516259421034.png",
+            "gripper_bounding_box": [
+                [
+                    82,
+                    159
+                ],
+                [
+                    105,
+                    178
+                ]
+            ],
+            "gripper_grasping_point": [
+                168,
+                83
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx72_swivB_dgc.jpg",
+            "gripper_position": {
+                "X": 15.161611487748132,
+                "Y": 4.971354335832437,
+                "Z": 2.694397387373277,
+                "Gamma": -0.06521010392072493,
+                "Rot": -1.1336967595304799,
+                "Gripper": 2
+            },
+            "swivel": 0.3168262208202336,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516259830274.png",
+            "gripper_bounding_box": [
+                [
+                    82,
+                    159
+                ],
+                [
+                    105,
+                    178
+                ]
+            ],
+            "gripper_grasping_point": [
+                168,
+                83
+            ]
+        },
+        {
+            "image_name": "idx73_swivA_dgc.jpg",
+            "gripper_position": {
+                "X": 15.862659272064407,
+                "Y": 2.2417625618567927,
+                "Z": 2.694471546054576,
+                "Gamma": -0.06060703776161494,
+                "Rot": -1.26165350439848,
+                "Gripper": 2
+            },
+            "swivel": 0.1357722852285735,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516261124685.png",
+            "gripper_bounding_box": [
+                [
+                    102,
+                    173
+                ],
+                [
+                    124,
+                    191
+                ]
+            ],
+            "gripper_grasping_point": [
+                182,
+                102
+            ],
+            "open_close_gripper_pos": [
+                490,
+                null
+            ]
+        },
+        {
+            "image_name": "idx74_swivB_dgo.jpg",
+            "gripper_position": {
+                "X": 15.926905308470696,
+                "Y": 2.2010122628152593,
+                "Z": 2.719344039044099,
+                "Gamma": -0.05907268237524498,
+                "Rot": -1.26165350439848,
+                "Gripper": 1
+            },
+            "swivel": 0.1357722852285735,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516261618417.png",
+            "gripper_bounding_box": [
+                [
+                    102,
+                    173
+                ],
+                [
+                    124,
+                    191
+                ]
+            ],
+            "gripper_grasping_point": [
+                182,
+                102
+            ]
+        },
+        {
+            "image_name": "idx75_swivA_dgo.jpg",
+            "gripper_position": {
+                "X": 16.057473014120845,
+                "Y": -0.6779438153601974,
+                "Z": 2.7438358082864305,
+                "Gamma": -0.06060703776161502,
+                "Rot": -1.41008332844536,
+                "Gripper": 1
+            },
+            "swivel": -0.04374729497671645,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516263537761.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                134,
+                205
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx76_swivB_dgc.jpg",
+            "gripper_position": {
+                "X": 16.057473014120845,
+                "Y": -0.6779438153601974,
+                "Z": 2.7438358082864305,
+                "Gamma": -0.06367574853435505,
+                "Rot": -1.41008332844536,
+                "Gripper": 2
+            },
+            "swivel": -0.04374729497671645,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516263940663.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                134,
+                205
+            ]
+        },
+        {
+            "image_name": "idx77_swivA_dgc.jpg",
+            "gripper_position": {
+                "X": 15.673497249928582,
+                "Y": -3.4573886462101275,
+                "Z": 2.7436792522987705,
+                "Gamma": -0.06367574853435494,
+                "Rot": -1.5636314222869598,
+                "Gripper": 2
+            },
+            "swivel": -0.22326687518200647,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516266390214.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                138,
+                231
+            ],
+            "open_close_gripper_pos": [
+                488,
+                null
+            ]
+        },
+        {
+            "image_name": "idx78_swivB_dgo.jpg",
+            "gripper_position": {
+                "X": 15.591328765833214,
+                "Y": -3.4392632476817986,
+                "Z": 2.816822475302221,
+                "Gamma": -0.07748494701168493,
+                "Rot": -1.5636314222869598,
+                "Gripper": 1
+            },
+            "swivel": -0.22326687518200647,
+            "gripper_dist": 16.0,
+            "new_image": "/tmp/images/test_image_t2516266879573.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                138,
+                231
+            ]
+        },
+        {
+            "image_name": "idx79_swivA_dgo.jpg",
+            "gripper_position": {
+                "X": 14.229816989085872,
+                "Y": 14.257135190303444,
+                "Z": 2.5650704823399053,
+                "Gamma": -0.312241321126295,
+                "Rot": -0.71399863636344,
+                "Gripper": 1
+            },
+            "swivel": false,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516270924890.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                45,
+                126
+            ],
+            "open_close_gripper_pos": [
+                null,
+                18
+            ]
+        },
+        {
+            "image_name": "idx80_swivB_dgc.jpg",
+            "gripper_position": {
+                "X": 13.947907461737444,
+                "Y": 14.3220486791016,
+                "Z": 2.62107524277042,
+                "Gamma": -0.322981808830885,
+                "Rot": -0.71399863636344,
+                "Gripper": 2
+            },
+            "swivel": false,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516271334009.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                45,
+                126
+            ]
+        },
+        {
+            "image_name": "idx81_swivA_dgc.jpg",
+            "gripper_position": {
+                "X": 17.005494289925505,
+                "Y": 10.680711544967298,
+                "Z": 2.6567841113466653,
+                "Gamma": -0.322981808830885,
+                "Rot": -0.86242846041032,
+                "Gripper": 2
+            },
+            "swivel": 0.5595522125687562,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516273646911.png",
+            "gripper_bounding_box": [
+                [
+                    72,
+                    114
+                ],
+                [
+                    91,
+                    133
+                ]
+            ],
+            "gripper_grasping_point": [
+                123,
+                72
+            ],
+            "open_close_gripper_pos": [
+                489,
+                null
+            ]
+        },
+        {
+            "image_name": "idx82_swivB_dgo.jpg",
+            "gripper_position": {
+                "X": 17.12017352780013,
+                "Y": 10.570459705386282,
+                "Z": 2.6219156998289286,
+                "Gamma": -0.313775676512665,
+                "Rot": -0.86242846041032,
+                "Gripper": 1
+            },
+            "swivel": 0.5595522125687562,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516274143368.png",
+            "gripper_bounding_box": [
+                [
+                    72,
+                    114
+                ],
+                [
+                    91,
+                    133
+                ]
+            ],
+            "gripper_grasping_point": [
+                123,
+                72
+            ]
+        },
+        {
+            "image_name": "idx83_swivA_dgo.jpg",
+            "gripper_position": {
+                "X": 19.04689027882869,
+                "Y": 6.212951402551343,
+                "Z": 2.621223559944003,
+                "Gamma": -0.318378742671775,
+                "Rot": -0.99038520527832,
+                "Gripper": 1
+            },
+            "swivel": 0.31405535074955643,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516275547619.png",
+            "gripper_bounding_box": [
+                [
+                    104,
+                    129
+                ],
+                [
+                    124,
+                    148
+                ]
+            ],
+            "gripper_grasping_point": [
+                138,
+                105
+            ],
+            "open_close_gripper_pos": [
+                null,
+                20
+            ]
+        },
+        {
+            "image_name": "idx84_swivB_dgc.jpg",
+            "gripper_position": {
+                "X": 18.996511797458734,
+                "Y": 6.228783224415344,
+                "Z": 2.62107524277042,
+                "Gamma": -0.322981808830885,
+                "Rot": -0.99038520527832,
+                "Gripper": 2
+            },
+            "swivel": 0.31405535074955643,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516275950862.png",
+            "gripper_bounding_box": [
+                [
+                    104,
+                    129
+                ],
+                [
+                    124,
+                    148
+                ]
+            ],
+            "gripper_grasping_point": [
+                138,
+                105
+            ]
+        },
+        {
+            "image_name": "idx85_swivA_dgc.jpg",
+            "gripper_position": {
+                "X": 19.91918574252333,
+                "Y": 1.7003647498705154,
+                "Z": 2.62107524277042,
+                "Gamma": -0.322981808830885,
+                "Rot": -1.1388150293252,
+                "Gripper": 2
+            },
+            "swivel": 0.0777646212485763,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516277053044.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                142,
+                160
+            ],
+            "open_close_gripper_pos": [
+                489,
+                null
+            ]
+        },
+        {
+            "image_name": "idx86_swivB_dgo.jpg",
+            "gripper_position": {
+                "X": 19.92789467249776,
+                "Y": 1.7011081717015595,
+                "Z": 2.682379548124171,
+                "Gamma": -0.32758487498999495,
+                "Rot": -1.1388150293252,
+                "Gripper": 1
+            },
+            "swivel": 0.0777646212485763,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516277550302.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                142,
+                160
+            ]
+        },
+        {
+            "image_name": "idx87_swivA_dgo.jpg",
+            "gripper_position": {
+                "X": 19.816521633811377,
+                "Y": -3.049081722849716,
+                "Z": 2.651975357419202,
+                "Gamma": -0.321447453444515,
+                "Rot": -1.27700831378264,
+                "Gripper": 1
+            },
+            "swivel": -0.15392304209329372,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516281414523.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                174,
+                196
+            ],
+            "open_close_gripper_pos": [
+                null,
+                18
+            ]
+        },
+        {
+            "image_name": "idx88_swivB_dgc.jpg",
+            "gripper_position": {
+                "X": 19.795290861376305,
+                "Y": -3.045815036526556,
+                "Z": 2.651851760174626,
+                "Gamma": -0.322981808830885,
+                "Rot": -1.27189004398792,
+                "Gripper": 2
+            },
+            "swivel": -0.15392304209329372,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516281821041.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                174,
+                196
+            ]
+        },
+        {
+            "image_name": "idx89_swivA_dgc.jpg",
+            "gripper_position": {
+                "X": 18.555439890289453,
+                "Y": -7.538314135207846,
+                "Z": 2.651851760174626,
+                "Gamma": -0.322981808830885,
+                "Rot": -1.44079294721368,
+                "Gripper": 2
+            },
+            "swivel": -0.3917481269806437,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516283756649.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                188,
+                239
+            ],
+            "open_close_gripper_pos": [
+                489,
+                null
+            ]
+        },
+        {
+            "image_name": "idx90_swivB_dgo.jpg",
+            "gripper_position": {
+                "X": 18.557439937013335,
+                "Y": -7.53912667215544,
+                "Z": 2.7438010253776586,
+                "Gamma": -0.33065358576273496,
+                "Rot": -1.44079294721368,
+                "Gripper": 1
+            },
+            "swivel": -0.3917481269806437,
+            "gripper_dist": 20.0,
+            "new_image": "/tmp/images/test_image_t2516284256120.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                188,
+                239
+            ]
+        },
+        {
+            "image_name": "idx91_swivA_dgo.jpg",
+            "gripper_position": {
+                "X": 14.714755759560774,
+                "Y": 19.195693556969797,
+                "Z": 2.617984553049137,
+                "Gamma": -0.6927614569460552,
+                "Rot": -0.58604189149544,
+                "Gripper": 1
+            },
+            "swivel": false,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516287746692.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                31,
+                101
+            ],
+            "open_close_gripper_pos": [
+                null,
+                18
+            ]
+        },
+        {
+            "image_name": "idx92_swivB_dgc.jpg",
+            "gripper_position": {
+                "X": 14.588234956932896,
+                "Y": 19.09124119811328,
+                "Z": 2.651008983681976,
+                "Gamma": -0.700433233877905,
+                "Rot": -0.58604189149544,
+                "Gripper": 2
+            },
+            "swivel": false,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516288163066.png",
+            "gripper_bounding_box": null,
+            "gripper_grasping_point": [
+                31,
+                101
+            ]
+        },
+        {
+            "image_name": "idx93_swivA_dgc.jpg",
+            "gripper_position": {
+                "X": 19.076350481093037,
+                "Y": 14.542116602427223,
+                "Z": 2.6114112138062495,
+                "Gamma": -0.6958301677187949,
+                "Rot": -0.71399863636344,
+                "Gripper": 2
+            },
+            "swivel": 0.6556052640325689,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516290398959.png"
+        },
+        {
+            "image_name": "idx94_swivB_dgo.jpg",
+            "gripper_position": {
+                "X": 19.250061121010333,
+                "Y": 14.627892098868791,
+                "Z": 2.6523355779708933,
+                "Gamma": -0.6927614569460551,
+                "Rot": -0.71399863636344,
+                "Gripper": 1
+            },
+            "swivel": 0.6556052640325689,
+            "gripper_dist": 24.0,
+            "new_image": "/tmp/images/test_image_t2516290882452.png"
+        }
+    ]
+}

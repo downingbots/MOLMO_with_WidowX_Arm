@@ -1,0 +1,14 @@
+{ 
+   "camera_name"          : "realsense",
+   "video_width"          : 1280,
+   "video_height"         : 1024,
+   "calib_video_width"    : 320,
+   "calib_video_height"   : 256,
+   "video_stream_provider": 2,
+   "cam_usb"              : "usb-0000:00:14.0-2.2",
+   "arm_usb"              : "0403:6001",
+   "dataset"              : "/home/ros/downingbots/dataset",
+   "image_dir"            : "/tmp/images",
+   "gif_dir"              : "/home/ros/downingbots_gpt4o/images"
+}
+

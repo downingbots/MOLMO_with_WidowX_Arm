@@ -1,0 +1,28 @@
+{ 
+   "camera_name"          : "realsense",
+   "video_width"          : 320,
+   "video_height"         : 256,
+   "video_stream_provider": 2,
+   "cam_usb"              : "usb-0000:00:14.0-2.2",
+   "arm_usb"              : "0403:6001",
+   "dataset"              : "/home/ros/downingbots/dataset",
+   "image_dir"            : "/tmp/images",
+   "gif_dir"              : "/home/ros/downingbots_gpt4o/images",
+   "calibration_file"     : "widowx_calibration.json",
+   "calibration_directory": "/home/ros/downingbots_gpt4o/calibration_images",
+   "openai_api_key"       : "",
+   "retry_on_fail"        : false,
+   "language_instruction" : "pick up the white spoon and place it to the right of the pot",
+   "initial_state"        : "{\"x\":20, \"y\":0, \"z\":12, \"gamma\":-254, \"rot\":0, \"gripper\":1}",
+   "VZ_UP"                : 10.2,
+   "VZ_DOWN"              : 2.6,
+   "FAR_LEFT_ARM_WRIST_ROT" : -0.71399863636344,
+   "MIDDLE_ARM_WRIST_ROT" : -0.8982563489733599,
+   "TT_WIDTH"             : 38,
+   "TT_FRONT"             : 14,
+   "NUM_SWIVELS"          : 5,
+   "MIN_SW_ANGLE"         : -0.40,
+   "CAM_X"                : 12,
+   "VX_SET"               : [12, 13, 14, 16, 18, 20, 24, 26, 27, 28, 29]
+}
+

@@ -1,0 +1,33 @@
+output_root: '../'
+pytorch_data_dir: '/datadrive/pytorch-data/'
+experiment_name: "alset"
+#  Training images are then scaled to have minor axis equal to 224 and 
+#  are then center cropped to (224, 224), validation images are first 
+#  scaled to 320 then are center cropped to (320, 320).
+# res: 320          
+# res: 224          
+res: 416          
+
+# batch_size: 8
+batch_size: 1
+# num_workers: 24
+num_workers: 1
+run_picie: False  # picie is the baseline
+run_crf: True     # post-processing; no access to labels?
+run_prediction: True
+dark_mode: True
+use_ddp: False    # Distributed Data Parallel
+
+model_paths:
+  - "STEGO/saved_models/cocostuff27_vit_base_5.ckpt"
+  #- "../saved_models/cityscapes_vit_base_1.ckpt"
+  #- "../saved_models/potsdam_test.ckpt"
+
+model_path: "STEGO/saved_models/cocostuff27_vit_base_5.ckpt"
+
+hydra:
+  run:
+    dir: "."
+  output_subdir: ~
+  #job_logging: "disabled"
+  #hydra_logging: "disabled"
