@@ -56,7 +56,8 @@ To calibrate real-world gripper locations to image pixels, the gripper is
 rotated to different positions and then the gripper is open/closed in view
 of the camera.  OpenCV is then used to convert the open/closed images into
 black and white and then the images are differenced to find the bounding box
-of the grasping area of the gripper.  In the following composite image, the 
+of the grasping area of the gripper.  Note that good consistent lighting with
+good angles are required when using OpenCV. In the following composite image, the 
 bottom right image shows the closed gripper; the bottom left is the open gripper;
 the top left is the difference; the top right shows the grasping bounding box:
 <p align="center">
