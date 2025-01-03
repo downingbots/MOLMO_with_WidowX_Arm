@@ -1,4 +1,4 @@
-# USING THE MOLMO LLM TO COMMAND A PYTHON ARM CONTROLLER 
+# USING THE MOLMO LLM TO COMMAND A POINT-AND-CLICK PYTHON ARM CONTROLLER 
 
 The Trossen WidowX series for robot arms have long been a popular 
 arm for robot hobbyists and researcher.  In recent years, the widowx
@@ -25,7 +25,7 @@ this repository is an evolution of two earlier experiments:
    chosen, but MOLMO was not up to the task. This repository is described
    in more detail below.
 
-# PYTHON-ONLY WIDOWX ARM CONTROLLER 
+# POINT-AND-CLICK PYTHON-ONLY WIDOWX ARM CONTROLLER 
 
 Trossen provides a ROS1 controller for the widowX arm.  This repository
 provides a python-only controller for Trossen Robot Arm Mark II that
