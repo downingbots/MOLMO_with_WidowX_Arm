@@ -90,17 +90,21 @@ https://huggingface.co/allenai/Molmo-7B-O-0924
 To test with a complex demo for an LLM to control a robot, the Hasbro game of "Perfection" was modified to
 become a robot arm's tabletop challenge.  The goal is to pick yellow plastic game pieces of diffent
 shapes and place them in corresponding holes on a board as seen below.  A human was able to run the
-pick_and_place demo to successfully play this game:
+pick_and_place demo to successfully play the game using the robot arm.
 <p align="center">
   <img src="https://raw.githubusercontent.com/downingbots/MOLMO_with_WidowX_Arm/main/image_perfection_tt.png" width="600" alt="accessibility text">
 </p> 
 
 MOLMO was tested to try and replace the human playing perfection.  MOLMO was easily able to identify the 
 locations of the yellow plastic pieces ("point to the yellow plastic pieces") and could count and identify the 
-holes that were the destinations on the blue board.  Unfortunately, Molmo fell short in describing/understanding the 
-shapes of individual pieces/holes and was unable to match pieces to the appropriate hole.  One approach that 
-seemed promising when running a hosted Hugging Face MOLMO model was to choose which of two yellow pieces fits
-better in a blue hole, but the approach also failed when using the downloaded model.  
-So, MOLMO was not quite up to the task to play the game of perfection.
+holes that were the destinations on the blue board. In fact, MOLMO identfied the pixel where the peg that sticks
+up from the piece intercects the main piece.  This is the ideal location for picking up the piece. MOLMO also
+identified the center location of each grid position for each hole on the board. Unfortunately, 
+Molmo fell short in describing/understanding the shapes of individual pieces/holes and was unable to match pieces 
+to the appropriate hole.  Numerous prompts were attempted but all failed. One approach that seemed promising when 
+running a hosted Hugging Face MOLMO model was to choose which of two yellow pieces fits better in a blue hole, 
+but the approach also failed when using the downloaded  model. As a result, MOLMO was not practical to
+use to place a piece in its associated hole on the board. So, MOLMO was not quite up to the task to play 
+the game of perfection.
 
 The next experiment may try the newest OpenAI models with the higher-level WidowX Arm controller.
